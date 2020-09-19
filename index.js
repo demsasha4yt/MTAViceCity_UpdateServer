@@ -8,7 +8,7 @@ const app = express();
 
 // connect to mongodb
 
-mongoose.connect('mongodb+srv://mongojs:mtavcsite_knopka123@cluster0-jsnwu.mongodb.net/test?retryWrites=true&w=majority');
+mongoose.connect('lol');
 mongoose.Promise = global.Promise;
 
 app.use('/static', express.static('dist/static'))
